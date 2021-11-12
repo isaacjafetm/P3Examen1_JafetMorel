@@ -217,8 +217,10 @@ string ejercicio3(string cadena){
 					}
 				}
 		}else{
-			mayorImpar=cantidad;
-			charImpar=cadena.at(i);
+			if(cantidad>mayorImpar){
+				mayorImpar=cantidad;
+				charImpar=cadena.at(i);
+			}
 		}
 		
 		
